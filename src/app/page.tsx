@@ -363,7 +363,7 @@ export default function Home() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-semibold text-white">Email</h4>
-                      <p className="text-gray-300">hello@taskmorph.ai</p>
+                      <p className="text-gray-300">taskmorphers@gmail.com</p>
                     </div>
                   </div>
                   
@@ -375,7 +375,7 @@ export default function Home() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-semibold text-white">Phone</h4>
-                      <p className="text-gray-300">+1 (555) 123-4567</p>
+                      <p className="text-gray-300">+91 8309467596</p>
                     </div>
                   </div>
                   
@@ -388,7 +388,7 @@ export default function Home() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-semibold text-white">Location</h4>
-                      <p className="text-gray-300">San Francisco, CA</p>
+                      <p className="text-gray-300">Hyderabad, India</p>
                     </div>
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-# BlazeReach - AI Automation Portfolio
+# KnightMorphers - AI Automation Portfolio
 
 A professional portfolio website for BlazeReach, showcasing AI automation services and expertise. Built with Next.js, TypeScript, and TailwindCSS.
 

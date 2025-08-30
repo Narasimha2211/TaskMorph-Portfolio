@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -13,12 +15,12 @@ export default function PrivacyPolicy() {
                 <span className="text-red-400 text-xs font-medium">AI Automation</span>
               </div>
             </div>
-            <a 
+            <Link 
               href="/"
               className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors transform hover:scale-105"
             >
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -234,12 +236,12 @@ export default function PrivacyPolicy() {
               © 2025 Knight Morphers. All rights reserved.
             </p>
             <div className="mt-4">
-              <a 
+              <Link 
                 href="/"
                 className="text-red-400 hover:text-red-300 transition-colors"
               >
                 Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>

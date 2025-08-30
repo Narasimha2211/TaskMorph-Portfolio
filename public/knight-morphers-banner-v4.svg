@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleBannerV4 descBannerV4">
+  <title id="titleBannerV4">Knight Morphers LinkedIn Banner (v4)</title>
+  <desc id="descBannerV4">A dark, futuristic background with a vibrant aurora wave pattern, featuring the new fluid logo and tagline.</desc>
+  <defs>
+    <linearGradient id="bg-grad-v4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a1f" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="aurora-wave-v4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bg-grad-v4)" />
+
+  <!-- Aurora Wave Pattern -->
+  <g opacity="0.7">
+    <path d="M-100 150 C 400 -50, 800 350, 1700 150" stroke="url(#aurora-wave-v4)" stroke-width="150" fill="none" filter="url(#glow-v4)"/>
+  </g>
+
+  <!-- Logo -->
+  <g transform="translate(200, 98) scale(0.5)">
+    <g filter="url(#glow-v4)">
+      <path d="M120 392 C 160 256, 200 256, 256 256 S 352 256, 392 392 M120 120 C 160 256, 200 256, 256 256 S 352 256, 392 120" stroke="url(#grad-aurora-v4)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M256 120 V 392" stroke="url(#grad-aurora-v4)" stroke-width="24" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Text Content -->
+  <g transform="translate(550, 140)" font-family="'Inter', sans-serif" fill="white">
+    <text font-size="64" font-weight="bold" letter-spacing="2">KNIGHT MORPHERS</text>
+    <text y="50" font-size="24" fill="#d1d5db" opacity="0.9">Intelligent Automation Solutions</text>
+  </g>
+
+</svg>

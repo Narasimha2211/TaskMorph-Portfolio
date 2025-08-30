@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleV3 descV3">
+  <title id="titleV3">Knight Morphers Logo (v3)</title>
+  <desc id="descV3">Abstract, geometric monogram fusing 'K' and 'M' into a forward-moving catalyst shape. Symbolizes data, transformation, and precision.</desc>
+  <defs>
+    <linearGradient id="grad-red-v3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="grad-grey-v3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#4b5563"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <filter id="drop-shadow-v3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="8" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
+
+  <!-- Abstract KM Shape -->
+  <g filter="url(#drop-shadow-v3)">
+    <!-- Part 1 (Left side of K) -->
+    <path d="M128 102 L128 410 L224 410 L224 288 L320 410 L416 410 L288 256 L416 102 L320 102 L224 224 L224 102 L128 102 Z" fill="url(#grad-grey-v3)"/>
+    
+    <!-- Part 2 (Right side of M) -->
+    <path d="M224 102 L288 182 L352 102 L416 102 L320 224 L416 346 L352 346 L288 266 L224 346 L224 102 Z" fill="url(#grad-red-v3)"/>
+
+    <!-- Center line to clean up the intersection -->
+    <path d="M224 102 L288 256 L224 410" fill="#111827"/>
+  </g>
+</svg>

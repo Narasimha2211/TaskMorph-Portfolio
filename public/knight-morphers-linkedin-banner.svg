@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LinkedIn Personal / Company Page Banner 1584x396 -->
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Knight Morphers LinkedIn Banner</title>
+  <desc id="desc">Dark tech gradient banner with red energy waves, geometric mesh, shield emblem and tagline: Intelligent Automation Solutions.</desc>
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1584" y2="396" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="55%" stop-color="#0d0d0f"/>
+      <stop offset="100%" stop-color="#161618"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 140) rotate(45) scale(520 300)">
+      <stop offset="0%" stop-color="#ff2e2e" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#ff0000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="red-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="40%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <path d="M80 0H0V80" stroke="#242426" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1  0 0 0 0 0.25  0 0 0 0 0.25  0 0 0 0.35 0"/>
+    </filter>
+    <linearGradient id="shield-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f1f21"/>
+      <stop offset="100%" stop-color="#0e0e10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg-grad)"/>
+  <rect width="1584" height="396" fill="url(#grid)" opacity="0.25"/>
+  <circle cx="1180" cy="140" r="420" fill="url(#flare)"/>
+  <!-- Flowing red energy curves -->
+  <path d="M0 310C260 250 470 330 690 290C910 250 1040 140 1240 170C1390 190 1500 150 1584 120" stroke="url(#red-line)" stroke-width="2" opacity="0.5"/>
+  <path d="M0 350C240 300 470 360 700 330C970 300 1040 200 1260 230C1410 250 1500 210 1584 190" stroke="url(#red-line)" stroke-width="2" opacity="0.35"/>
+  <path d="M0 270C260 230 500 300 740 260C960 225 1080 120 1280 150C1440 175 1520 130 1584 100" stroke="url(#red-line)" stroke-width="3" opacity="0.25"/>
+  <!-- Shield Emblem (simplified version of logo) -->
+  <g transform="translate(140 70) scale(0.85)">
+    <path d="M256 460c-72-26-140-82-168-148-9-22-12-48-12-92V124l180-72 180 72v96c0 44-3 70-12 92-28 66-96 122-168 148Z" fill="#0f0f10" stroke="#2e2e2f" stroke-width="3"/>
+    <path d="M256 448c-66-25-129-76-154-136-8-20-10-44-10-84v-93l164-66 164 66v93c0 40-2 64-10 84-25 60-88 111-154 136Z" fill="#131314"/>
+    <path d="M152 338V184a12 12 0 0 1 12-12h24a12 12 0 0 1 9 4l59 64 59-64a12 12 0 0 1 9-4h24a12 12 0 0 1 12 12v154h-44V232l-60 66-60-66v106h-44Z" fill="url(#red-line)"/>
+    <path d="M180 360V152h40v88l112-88h56l-124 96 124 112h-60l-108-98v98h-40Z" fill="none" stroke="#f87171" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <!-- Tagline & Text -->
+  <g font-family="'Inter', system-ui, sans-serif" fill="#ffffff">
+    <text x="420" y="150" font-size="86" font-weight="700" letter-spacing="4" fill="url(#red-line)">KNIGHT MORPHERS</text>
+    <text x="420" y="200" font-size="30" font-weight="500" fill="#f3f4f6" opacity="0.9">Intelligent Automation Solutions</text>
+    <text x="420" y="245" font-size="20" fill="#d1d5db" opacity="0.75">AI Process Automation  •  Data Intelligence  •  Smart Integration</text>
+    <text x="420" y="285" font-size="18" fill="#9ca3af" opacity="0.6">Accelerating enterprise efficiency with adaptive, explainable AI systems.</text>
+  </g>
+  <!-- Subtle corner accents -->
+  <rect x="40" y="40" width="120" height="120" rx="16" stroke="#27272a" stroke-width="2" opacity="0.5"/>
+  <rect x="1420" y="20" width="120" height="120" rx="16" stroke="#27272a" stroke-width="2" opacity="0.35"/>
+  <circle cx="1500" cy="330" r="38" stroke="#ef4444" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="1500" cy="330" r="14" fill="#ef4444" opacity="0.4"/>
+</svg>

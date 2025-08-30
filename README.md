@@ -178,3 +178,28 @@ This portfolio is designed to:
 ---
 
 **Ready to launch your AI automation business? This portfolio is your 24/7 salesman for international clients.** 🚀
+
+# Knight Morphers Brand Assets
+
+The following SVG assets were added for branding:
+
+- `public/knight-morphers-logo.svg` – Square logo (512x512) suitable for avatar / favicon / social.
+- `public/knight-morphers-linkedin-banner.svg` – LinkedIn banner (1584x396) sized for company / profile header.
+
+## Recommended Usage
+
+### Logo (Avatar)
+- LinkedIn profile/company logo: Upload the SVG or export to 400x400 PNG with transparent background.
+- Favicon: Export to 256x256 / 64x64 PNG.
+- Dark mode safe. For light backgrounds, optionally add a #0F0F10 circle behind.
+
+### LinkedIn Banner
+- Dimensions already optimized: 1584x396
+- Safe text zone: Keep critical text between x=400–1420 and y=90–310.
+- If compression artifacts appear after upload, export as high-quality PNG from the SVG.
+
+## Editing
+Open SVGs in Figma / Illustrator / VS Code. Change gradient stops (#ef4444, #dc2626, #7f1d1d) to adjust brand hue.
+
+## Accessibility
+Each SVG includes <title> and <desc> for assistive tech. Preserve these for compliance.

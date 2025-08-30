@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Knight Morphers Logo</title>
+  <desc id="desc">Shield containing stylized K and M letters formed by negative space and red tech lines, black / red / gray brand colors.</desc>
+  <defs>
+    <linearGradient id="grad-red" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="60%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(256 256)">
+      <stop offset="0%" stop-color="#ff5555" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#ff1a1a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="inner-shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dx="0" dy="4"/>
+      <feGaussianBlur stdDeviation="6" result="offset-blur"/>
+      <feComposite in="SourceGraphic" in2="offset-blur" operator="arithmetic" k2="-1" k3="1" result="inverse"/>
+      <feColorMatrix in="inverse" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 0" result="shadow"/>
+      <feComposite in="shadow" in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#050505"/>
+  <circle cx="256" cy="256" r="248" fill="url(#glow)"/>
+  <!-- Shield base -->
+  <path d="M256 460c-72-26-140-82-168-148-9-22-12-48-12-92V124l180-72 180 72v96c0 44-3 70-12 92-28 66-96 122-168 148Z" fill="#0f0f10" stroke="#2e2e2f" stroke-width="4"/>
+  <path d="M256 448c-66-25-129-76-154-136-8-20-10-44-10-84v-93l164-66 164 66v93c0 40-2 64-10 84-25 60-88 111-154 136Z" fill="#131314"/>
+  <!-- Stylized circuitry M -->
+  <path d="M152 338V184a12 12 0 0 1 12-12h24a12 12 0 0 1 9 4l59 64 59-64a12 12 0 0 1 9-4h24a12 12 0 0 1 12 12v154h-44V232l-60 66-60-66v106h-44Z" fill="url(#grad-red)" filter="url(#inner-shadow)"/>
+  <!-- K strokes (negative + outline) -->
+  <path d="M180 360V152h40v88l112-88h56l-124 96 124 112h-60l-108-98v98h-40Z" fill="none" stroke="#f87171" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+  <!-- Accent nodes -->
+  <circle cx="180" cy="152" r="6" fill="#ef4444"/>
+  <circle cx="220" cy="240" r="5" fill="#dc2626"/>
+  <circle cx="332" cy="240" r="5" fill="#dc2626"/>
+  <circle cx="292" cy="328" r="5" fill="#ef4444"/>
+  <circle cx="220" cy="328" r="5" fill="#ef4444"/>
+  <!-- Subtle top highlight -->
+  <path d="M256 116c52 0 104 12 152 32v-24L256  sixty?" fill="none"/>
+  <!-- Wordmark (optional - can be hidden for avatar) -->
+  <g font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="72" text-anchor="middle" fill="url(#grad-red)" transform="translate(256 500)">
+    <text style="letter-spacing:3px">KM</text>
+  </g>
+</svg>

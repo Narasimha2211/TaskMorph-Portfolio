@@ -17,7 +17,7 @@ export default function Home() {
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">Home</a>
               <a href="#services" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">Services</a>
-              <a href="#case-studies" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">Case Studies</a>
+              <a href="#projects" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">Case Studies</a>
               <a href="#about" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">About</a>
               <a href="#contact" className="text-gray-300 hover:text-red-400 transition duration-300 font-medium">Contact</a>
             </div>
@@ -418,7 +418,7 @@ export default function Home() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-semibold text-white">Email</h4>
-                      <p className="text-gray-300">taskmorphers@gmail.com</p>
+                      <p className="text-gray-300">knightmorphers@gmail.com</p>
                     </div>
                   </div>
                   
@@ -451,8 +451,25 @@ export default function Home() {
             </div>
             
             <div className="mt-12 lg:mt-0">
-              <form className="bg-gray-900 rounded-xl p-8 border border-gray-700">
+              <form action="https://formspree.io/f/your_form_id" method="POST" className="bg-gray-900 rounded-xl p-8 border border-gray-700">
+                <input type="hidden" name="_to" value="knightmorphers@gmail.com" />
                 <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
+                
+                {/* Privacy Notice */}
+                <div className="bg-red-600/10 border border-red-500/20 rounded-lg p-4 mb-6">
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-red-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <p className="text-red-400 font-medium text-sm mb-1">Your Privacy is Protected</p>
+                      <p className="text-gray-400 text-xs">
+                        We only use your contact information for project communication. View our 
+                        <a href="/privacy" className="text-red-400 hover:text-red-300 ml-1 underline">Privacy Policy</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 
                 <div className="space-y-4">
                   <div>
@@ -531,6 +548,25 @@ export default function Home() {
                 Transforming businesses through intelligent automation and cutting-edge AI solutions. 
                 We help companies achieve operational excellence and sustainable growth.
               </p>
+
+              {/* Privacy Highlight */}
+              <div className="bg-gray-900/50 border border-red-500/20 rounded-lg p-4 mb-6">
+                <div className="flex items-center mb-2">
+                  <svg className="w-5 h-5 text-red-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                  <h4 className="text-white font-semibold">Privacy Protected</h4>
+                </div>
+                <p className="text-gray-400 text-sm">
+                  We only collect Excel data and meeting information for automation services. No invasive tracking.
+                </p>
+                <a href="/privacy" className="text-red-400 hover:text-red-300 text-sm font-medium inline-flex items-center mt-2">
+                  View Privacy Policy
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
             </div>
             
             {/* Quick Links */}
@@ -539,7 +575,7 @@ export default function Home() {
               <ul className="space-y-3">
                 <li><a href="#home" className="text-gray-400 hover:text-red-400 transition-colors">Home</a></li>
                 <li><a href="#services" className="text-gray-400 hover:text-red-400 transition-colors">Services</a></li>
-                <li><a href="#case-studies" className="text-gray-400 hover:text-red-400 transition-colors">Case Studies</a></li>
+                <li><a href="#projects" className="text-gray-400 hover:text-red-400 transition-colors">Case Studies</a></li>
                 <li><a href="#about" className="text-gray-400 hover:text-red-400 transition-colors">About</a></li>
                 <li><a href="#contact" className="text-gray-400 hover:text-red-400 transition-colors">Contact</a></li>
               </ul>
@@ -558,16 +594,19 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © 2024 Knight Morphers. All rights reserved.
-            </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-red-400 text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-red-400 text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-red-400 text-sm transition-colors">Cookie Policy</a>
+          <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+              <p className="text-gray-400 text-center md:text-left">
+                © 2025 Knight Morphers. All rights reserved.
+              </p>
+              <div className="flex space-x-6 mt-4 md:mt-0">
+                <a href="https://www.linkedin.com/in/knight-morphers-37a432381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors">
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                </a>
+                <a href="/privacy" className="text-gray-400 hover:text-red-400 text-sm transition-colors">Privacy Policy</a>
+              </div>
             </div>
-          </div>
         </div>
       </footer>
     </div>

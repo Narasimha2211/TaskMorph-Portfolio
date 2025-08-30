@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleV4 descV4">
+  <title id="titleV4">Knight Morphers Logo (v4)</title>
+  <desc id="descV4">Abstract, fluid monogram with a vibrant aurora gradient, symbolizing data flow, transformation, and neural networks.</desc>
+  <defs>
+    <linearGradient id="grad-aurora-v4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/> <!-- Pink -->
+      <stop offset="50%" stop-color="#a78bfa"/> <!-- Violet -->
+      <stop offset="100%" stop-color="#60a5fa"/> <!-- Blue -->
+    </linearGradient>
+    <filter id="glow-v4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0.5 0 0 0 0  0.8 0 0 0 0  0 0 0 0.6 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#0c0a1f"/>
+
+  <!-- Fluid Shape -->
+  <g filter="url(#glow-v4)">
+    <path d="M120 392 C 160 256, 200 256, 256 256 S 352 256, 392 392 M120 120 C 160 256, 200 256, 256 256 S 352 256, 392 120" stroke="url(#grad-aurora-v4)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 120 V 392" stroke="url(#grad-aurora-v4)" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>

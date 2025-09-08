@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
         </div>
       </nav>
 
-      {/* Main Content */}
+      {/* Main Content */}  
       <div className="pt-24 pb-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent">

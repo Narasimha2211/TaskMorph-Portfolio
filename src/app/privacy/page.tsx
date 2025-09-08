@@ -82,10 +82,12 @@ export default function PrivacyPolicy() {
                   </p>
                   <ul className="list-disc list-inside text-gray-300 space-y-1 ml-4">
                     <li>Meta Pixel (Facebook Pixel) for advertising optimization</li>
+                    <li>Google Analytics 4 for website performance and user behavior analysis</li>
                     <li>Website usage analytics and visitor behavior</li>
                     <li>Conversion tracking for lead generation</li>
                     <li>Custom audience creation for targeted advertising</li>
                     <li>Ad performance measurement and optimization</li>
+                    <li>Traffic source analysis and demographic insights</li>
                   </ul>
                   <p className="text-gray-400 text-sm mt-3">
                     You can opt-out of tracking through your browser settings or ad preferences.

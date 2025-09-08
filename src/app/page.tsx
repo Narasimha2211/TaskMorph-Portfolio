@@ -1,15 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-
 export default function Home() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    message: ''
-  });
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -439,7 +430,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-slate-800">Future-Focused</h3>
-                      <p className="text-slate-600">Building tomorrow's solutions</p>
+                      <p className="text-slate-600">Building tomorrow&apos;s solutions</p>
                     </div>
                   </div>
                 </div>
@@ -457,7 +448,7 @@ export default function Home() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Let's discuss how AI automation can revolutionize your operations and drive unprecedented growth
+              Let&apos;s discuss how AI automation can revolutionize your operations and drive unprecedented growth
             </p>
           </div>
           

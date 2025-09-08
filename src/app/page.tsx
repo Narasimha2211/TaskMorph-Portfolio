@@ -278,13 +278,22 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12">
             {[
               {
-                title: "E-commerce Giant Automation",
-                company: "Major Retail Corporation",
-                challenge: "Manual order processing was creating bottlenecks and delays in fulfillment",
-                solution: "Implemented intelligent order routing and inventory optimization AI",
-                results: ["90% reduction in processing time", "99.5% accuracy rate", "$2M annual savings"],
-                tech: ["Machine Learning", "Computer Vision", "RPA"],
-                image: "🛒"
+                title: "Gmail Automation Suite",
+                company: "Tech Startup Company",
+                challenge: "Manual email management was consuming hours of productive time daily",
+                solution: "Developed intelligent Gmail automation with smart filtering, auto-responses, and priority sorting",
+                results: ["85% reduction in email management time", "100% important emails prioritized", "300+ hours saved monthly"],
+                tech: ["Gmail API", "Natural Language Processing", "Machine Learning"],
+                image: "�"
+              },
+              {
+                title: "AI-Powered Calling Agent",
+                company: "Digital Marketing Agency", 
+                challenge: "High volume of incoming calls overwhelming staff and missed potential leads",
+                solution: "Implemented intelligent calling agent with voice recognition and automated lead qualification",
+                results: ["90% call handling automation", "Zero missed leads", "50% faster response time"],
+                tech: ["Voice AI", "Speech Recognition", "Conversational AI"],
+                image: "📞"
               },
               {
                 title: "Healthcare Workflow Optimization",
@@ -294,15 +303,6 @@ export default function Home() {
                 results: ["75% faster patient onboarding", "40% reduction in wait times", "95% patient satisfaction"],
                 tech: ["Natural Language Processing", "Predictive Analytics", "Automation"],
                 image: "🏥"
-              },
-              {
-                title: "Financial Services Transformation",
-                company: "Investment Management Firm",
-                challenge: "Risk assessment and compliance monitoring required extensive manual oversight",
-                solution: "Created AI-driven risk analysis and automated compliance monitoring system",
-                results: ["60% faster risk assessments", "99.9% compliance accuracy", "50% cost reduction"],
-                tech: ["Deep Learning", "Pattern Recognition", "Real-time Analytics"],
-                image: "💰"
               }
             ].map((study, index) => (
               <div 

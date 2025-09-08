@@ -74,6 +74,23 @@ export default function PrivacyPolicy() {
                     <li>Follow-up tasks and action items</li>
                   </ul>
                 </div>
+                
+                <div className="bg-gray-800 rounded-lg p-6">
+                  <h3 className="text-lg font-medium text-white mb-3">Website Analytics & Tracking</h3>
+                  <p className="text-gray-300 mb-3">
+                    We use tracking technologies to improve our website and advertising effectiveness:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-300 space-y-1 ml-4">
+                    <li>Meta Pixel (Facebook Pixel) for advertising optimization</li>
+                    <li>Website usage analytics and visitor behavior</li>
+                    <li>Conversion tracking for lead generation</li>
+                    <li>Custom audience creation for targeted advertising</li>
+                    <li>Ad performance measurement and optimization</li>
+                  </ul>
+                  <p className="text-gray-400 text-sm mt-3">
+                    You can opt-out of tracking through your browser settings or ad preferences.
+                  </p>
+                </div>
               </div>
             </section>
 
